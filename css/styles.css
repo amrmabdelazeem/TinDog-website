@@ -1,8 +1,6 @@
 #title{
     background-color: #ff4c68;
     color: #ffffff;
-    position: relative;
-    z-index: -1;
 }
 
 h1{
@@ -20,7 +18,7 @@ h2{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 body{
@@ -57,21 +55,24 @@ body{
 }
 
 /* Title Image */
-
+.image-container{
+    position: relative;
+    min-height: 300px;
+}
 .title-image{
     width: 60%;
     transform: rotate(25deg);
-    position: relative;
-    top: 35%;
-    z-index: -1;
+    position: absolute;
+    right: 30%;
 }
 
 /* Features */
 
 .mid-page{
-    padding: 10% 20%;
+    padding: 7% 15%;
     text-align: center;
     background-color: #fff;
+    position: relative;
 }
 
 .mid-page i{
@@ -132,3 +133,14 @@ body{
 .pricing-column{
     padding: 3% 2%;
 }
+
+
+
+
+
+
+
+
+
+
+
