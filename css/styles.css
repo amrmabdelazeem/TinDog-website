@@ -17,6 +17,11 @@ h2{
 
 }
 
+p{
+    color: #8f8f8f;
+
+}
+
 .container-fluid{
     padding: 3% 15% 7%;
 }
@@ -91,9 +96,6 @@ body{
 
 }
 
-.mid-page p{
-    color: #8f8f8f;
-}
 
 /* Testimonials */
 
@@ -134,6 +136,37 @@ body{
     padding: 3% 2%;
 }
 
+/* Call to Action */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10% 20% 7%;
+}
+
+#cta h3{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    padding-bottom: 5%;
+}
+
+#cta button{
+    margin: 2%;
+}
+
+/* Footer */
+
+#footer{
+    background-color: #fff;
+    padding: 5% 20% 5%;
+    text-align: center;
+}
+
+.footer-icon{
+    margin: 2% 1%;
+}
 
 
 
@@ -141,6 +174,14 @@ body{
 
 
 
+@media (max-width: 1028px){
+    
+    #title{
+        text-align: center;
+    }
 
-
-
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
